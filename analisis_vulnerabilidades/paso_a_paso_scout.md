@@ -5,12 +5,12 @@
 
 - **PASO 1: Activar Docker Scout**
 Docker Scout ya viene integrado en Docker Desktop (desde la versión 4.18). Si estás en terminal, puedes usarlo así:
-con el siguiente comando: **docker scout quickview m4rlon25/typewriter:latest**
+con el siguiente comando: **docker scout quickview m4rlon25/casacafe:latest**
 ![image](https://github.com/user-attachments/assets/171297f5-d5b8-4932-b49f-54184a38c3e3)
 
 - **PASO 2: Documentar el análisis**
 Generar un reporte detallado en formato tabla (legible para documentation):
- usamos el siguiente comando: **docker scout cves m4rl0n25/typewrite:latest**
+ usamos el siguiente comando: **docker scout cves m4rl0n25/casacafe:latest**
 
 ![image](https://github.com/user-attachments/assets/5a91b90d-cbaf-4e2c-bc3e-3b87ab4995fd)
 
@@ -21,7 +21,7 @@ Generar un reporte detallado en formato tabla (legible para documentation):
 ![image](https://github.com/user-attachments/assets/0669ff0b-80c6-447e-8137-9bb30c71bdbf)
 
 - **PASO 3: Para exportar como Markdown (ideal para documentación técnica):**
-Usamos el siguiente comando: **docker scout cves m4rl0n25/typewriter:latest --format markdown > reporte.md**
+Usamos el siguiente comando: **docker scout cves m4rl0n25/casacafe:latest --format markdown > reporte.md**
 
 Ejemplo de salida resumida:
 
@@ -30,7 +30,7 @@ Ejemplo de salida resumida:
 ---
 LINK:
 
-https://hub.docker.com/repository/docker/m4rl0n25/typewriter/general
+https://hub.docker.com/repository/docker/m4rl0n25/casacafe/general
 
 
 

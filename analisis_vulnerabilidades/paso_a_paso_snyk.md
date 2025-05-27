@@ -31,4 +31,21 @@ Agrega un nuevo secreto llamado SNYK_TOKEN con tu token de autenticación de Sny
 
 Crea un archivo de flujo de trabajo en .github/workflows/snyk.yml con el siguiente contenido:
 
+![image](https://github.com/user-attachments/assets/ead0452f-4fcc-4400-a993-5839bfe773a1)
+
+
+5. Monitorear y Gestionar Vulnerabilidades
+En la sección Projects de Snyk, podrás ver una lista de tus proyectos y las vulnerabilidades detectadas.
+
+Snyk proporciona detalles sobre cada vulnerabilidad y, en muchos casos, sugiere soluciones o actualizaciones para mitigarlas.
+
+6. Configurar Pull Requests Automáticos (Opcional)
+Snyk puede crear automáticamente pull requests para corregir vulnerabilidades detectadas:
+
+En Snyk, ve a Settings > Integrations > GitHub.
+
+Activa la opción de Automatic fix PRs.
+
+Configura las preferencias según tus necesidades, como asignar automáticamente los PRs al último colaborador que modificó el archivo afectado.
+
 

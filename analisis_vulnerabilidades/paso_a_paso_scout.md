@@ -21,7 +21,7 @@ Generar un reporte detallado en formato tabla (legible para documentation):
 ![image](https://github.com/user-attachments/assets/0669ff0b-80c6-447e-8137-9bb30c71bdbf)
 
 - **PASO 3: Para exportar como Markdown (ideal para documentación técnica):**
-Usamos el siguiente comando: **docker scout cves m4rl0n25/casacafe:latest --format markdown > reporte.md**
+Usamos el siguiente comando: **docker scout cves m4rl0n25/casacafe:latest --format markdown > scout.md**
 
 Ejemplo de salida resumida:
 

@@ -1,5 +1,5 @@
 # Usa la imagen oficial de PHP con Apache
-FROM php:8.2-apache
+FROM php:8.4.8RC1-fpm-alpine3.20
 
 # Habilitar módulos de Apache necesarios
 RUN a2enmod rewrite
